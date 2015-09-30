@@ -61,13 +61,19 @@ while hasEscaped == 0 and hasDied == 0:
 		print "1) poop"
 		print "2) a stick"
 		print "3) chocolate that has been in your pocket for 2 days"
-		print "4) don't answer, go to main room"
+		print "4) don't answer, go to west room"
 		
-		answer=raw_input ("choose #1-3")	
+		answer=raw_input ("choose #1-4")	
+		answer=int (answer)
 			
+		if answer== 1:
+			print "Incorrect"
 		if answer== 2:
 			print "Correct"
 			hasSideGame= 1
+			inRoom = "west"
+		if answer== 3:
+			print "Incorrect"
 		if answer== 4:
 			inRoom= "west"
 		
@@ -128,6 +134,8 @@ while hasEscaped == 0 and hasDied == 0:
 if hasDied == 1:
 	print "You lose"
 if hasEscaped == 1:
-	print "you win"	
+	print "You win"	
+	if hasSideGame == 1:
+		print ":) You won and completed the side quest! :)"
 	
 	
