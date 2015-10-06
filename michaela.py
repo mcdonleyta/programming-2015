@@ -3,6 +3,9 @@ hasSword = 0
 hasEscaped = 0
 
 while hasEscaped == 0:
+	if inRoom == "hidden":
+		
+	
     if inRoom == "Main":
         print "you are in a scary warehouse." 
         print "try to escape"
