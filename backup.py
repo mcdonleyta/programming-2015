@@ -135,4 +135,4 @@ while hasEscaped == 0:
         if action == 1:
             print "you have opened the door" 
             print "you win!"
-hasEscaped = 1
+			hasEscaped = 1
