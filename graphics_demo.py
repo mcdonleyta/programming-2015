@@ -87,5 +87,11 @@ def draw():
   drawRect(300, 380, 150, 30)
   setColor(1, 1, 1)                          
   drawRect(320, 410, 110, 20)
+  setColor(1, 1, 1)                          
+  drawRect(200, 400, 150, 30)
+  setColor(1, 1, 1)                          
+  drawRect(230, 410, 150, 30)
+  
+  
   
 run(800, 600, "Mr McDonley's Awesome Example", draw)
